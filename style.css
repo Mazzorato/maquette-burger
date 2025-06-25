@@ -1,0 +1,19 @@
+.hero-section
+{
+    height:100vh;
+    background-color: red;
+    color: white;
+}
+
+
+.map-section
+{
+    background-color: orange;
+    color: white;
+}
+
+.about-section
+{
+    background-color: blue;
+    color: white;
+}
