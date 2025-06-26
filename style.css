@@ -1,25 +1,24 @@
-*{
-margin: 0;
-padding: 0;  
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: fantasy
-    
 }
 
 .hero-section {
     margin: 0%;
     padding: 0;
 
-   background-image: linear-gradient(to right,red,rgb(105, 10, 10));
-   color: white;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   height: 80vh;
-   font-size: 3rem;
+    background-image: linear-gradient(to right, red, rgb(105, 10, 10));
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    font-size: 3rem;
 }
 
 
@@ -28,19 +27,19 @@ body{
     gap: 20px;
     padding: 20px;
 
-    background-color: rgb(216,100, 36);
+    background-color: rgb(216, 100, 36);
     color: white;
 
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
-.map-section h2 {
+.map-section h3 {
     font-size: 5rem;
-} 
+}
 
 .map-container iframe {
     width: 550px;
@@ -64,32 +63,29 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .about-section h2 {
     font-size: 10rem;
     font-weight: bold;
     text-align: center;
- }
+    letter-spacing: 10px;
+}
 
- .about-section p {
+.about-section p {
     max-width: 300px;
     text-align: justify;
     font-size: 2.5rem;
     font-family: cursive;
-   }
+}
 
-@media (max-width:600px){
-    .hero-section {
-        flex-direction: column;
-        text-align: center;
-    }
-    .hero-section .hero-text {
-        font-size: 1.5rem;
-    }
-    .about-section { 
-        flex-direction: column;
-    }
- }
+*{
+    font-family: "Bangers";
+}
 
+@media only screen and (max-width: 1600x) {
+  body {
+    font-size: 12px;
+  }
+}
