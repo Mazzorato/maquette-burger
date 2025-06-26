@@ -13,7 +13,7 @@ body{
     margin: 0%;
     padding: 0;
 
-   background-color: red;
+   background-image: linear-gradient(to right,red,rgb(105, 10, 10));
    color: white;
    display: flex;
    justify-content: space-around;
@@ -28,7 +28,7 @@ body{
     gap: 20px;
     padding: 20px;
 
-    background-color: orange;
+    background-color: rgb(216,100, 36);
     color: white;
 
     text-align: center;
@@ -54,11 +54,13 @@ body{
 
 .about-section {
     height: 100vh;
+    padding: 40px 20px;
     background-color: beige;
-    color: rgb(12, 12, 12);
-    display: grid
-    
-    
-    
-    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
 }
+
