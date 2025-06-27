@@ -84,8 +84,8 @@ body {
     font-family: "Bangers";
 }
 
-@media only screen and (max-width: 1600x) {
-  body {
-    font-size: 12px;
+@media (max-width: 1600x) {
+  container {
+    grid-template-columns: 1fr;
   }
 }
