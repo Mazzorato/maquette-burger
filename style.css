@@ -84,8 +84,50 @@ body {
     font-family: "Bangers";
 }
 
-@media (max-width: 600x) {
-  container {
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-section img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-container iframe {
+    width: 90%;
+    height: 300px;
+  }
+
+  .map-section h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
     grid-template-columns: 1fr;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .about-section h2 {
+    font-size: 5rem;
+  }
+
+  .about-section p {
+    font-size: 1.5rem;
+    text-align: center;
   }
 }
