@@ -84,7 +84,7 @@ body {
     font-family: "Bangers";
 }
 
-@media (max-width: 1600x) {
+@media (max-width: 600x) {
   container {
     grid-template-columns: 1fr;
   }
